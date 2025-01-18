@@ -34,7 +34,7 @@
           "artifact": {
             "size": 1387408,
             "MD5": "239d59118dec4324672b3d9e9d75efef",
-            "url": "https://raw.githubusercontent.com/minsuho/HyedamTown/repo/lib/net/fabricmc/fabric-loader/0.16.10/fabric-loader-0.16.10.jar"
+            "url": "https://raw.githubusercontent.com/minsuho/HyedamTown/main/repo/lib/net/fabricmc/fabric-loader/0.16.10/fabric-loader-0.16.10.jar"
           },
           "subModules": [
             {
@@ -44,7 +44,7 @@
               "artifact": {
                 "size": 2859,
                 "MD5": "a041e14c1b01e2d33340e148fee86c92",
-                "url": "https://raw.githubusercontent.com/minsuho/HyedamTown/repo/versions/1.20.1-fabric-0.16.10/1.20.1-fabric-0.16.10.json"
+                "url": "https://raw.githubusercontent.com/minsuho/HyedamTown/main/repo/versions/1.20.1-fabric-0.16.10/1.20.1-fabric-0.16.10.json"
               }
             },
             {
@@ -54,7 +54,7 @@
               "artifact": {
                 "size": 126093,
                 "MD5": "e2cdd32d198ad31427d298eee9d39d8d",
-                "url": "https://raw.githubusercontent.com/minsuho/HyedamTown/repo/lib/org/ow2/asm/asm/9.7.1/asm-9.7.1.jar"
+                "url": "https://raw.githubusercontent.com/minsuho/HyedamTown/main/repo/lib/org/ow2/asm/asm/9.7.1/asm-9.7.1.jar"
               }
             },
             {
@@ -64,7 +64,7 @@
               "artifact": {
                 "size": 35126,
                 "MD5": "4cd9e7178dfb85371bba3077e40cd514",
-                "url": "https://raw.githubusercontent.com/minsuho/HyedamTown/repo/lib/org/ow2/asm/asm-analysis/9.7.1/asm-analysis-9.7.1.jar"
+                "url": "https://raw.githubusercontent.com/minsuho/HyedamTown/main/repo/lib/org/ow2/asm/asm-analysis/9.7.1/asm-analysis-9.7.1.jar"
               }
             },
             {
@@ -74,7 +74,7 @@
               "artifact": {
                 "size": 73459,
                 "MD5": "8344aea3c8b7d707e9d35a62710e77c9",
-                "url": "https://raw.githubusercontent.com/minsuho/HyedamTown/repo/lib/org/ow2/asm/asm-commons/9.7.1/asm-commons-9.7.1.jar"
+                "url": "https://raw.githubusercontent.com/minsuho/HyedamTown/main/repo/lib/org/ow2/asm/asm-commons/9.7.1/asm-commons-9.7.1.jar"
               }
             },
             {
@@ -84,7 +84,7 @@
               "artifact": {
                 "size": 51939,
                 "MD5": "e85029f613b6469989cc7cf53fe06b74",
-                "url": "https://raw.githubusercontent.com/minsuho/HyedamTown/repo/lib/org/ow2/asm/asm-tree/9.7.1/asm-tree-9.7.1.jar"
+                "url": "https://raw.githubusercontent.com/minsuho/HyedamTown/main/repo/lib/org/ow2/asm/asm-tree/9.7.1/asm-tree-9.7.1.jar"
               }
             },
             {
@@ -94,7 +94,7 @@
               "artifact": {
                 "size": 94519,
                 "MD5": "36d373a9cd6cad9b35db9f984c6b4bbb",
-                "url": "https://raw.githubusercontent.com/minsuho/HyedamTown/repo/lib/org/ow2/asm/asm-util/9.7.1/asm-util-9.7.1.jar"
+                "url": "https://raw.githubusercontent.com/minsuho/HyedamTown/main/repo/lib/org/ow2/asm/asm-util/9.7.1/asm-util-9.7.1.jar"
               }
             },
             {
@@ -104,7 +104,7 @@
               "artifact": {
                 "size": 1494834,
                 "MD5": "991ca8be2c408fe19eb64014d8a18243",
-                "url": "https://raw.githubusercontent.com/minsuho/HyedamTown/repo/lib/net/fabricmc/sponge-mixin/0.15.4+mixin.0.8.7/sponge-mixin-0.15.4+mixin.0.8.7.jar"
+                "url": "https://raw.githubusercontent.com/minsuho/HyedamTown/main/repo/lib/net/fabricmc/sponge-mixin/0.15.4+mixin.0.8.7/sponge-mixin-0.15.4+mixin.0.8.7.jar"
               }
             },
             {
@@ -114,7 +114,7 @@
               "artifact": {
                 "size": 573365,
                 "MD5": "3f4768ac751cac3418266d1d7aa15f55",
-                "url": "https://raw.githubusercontent.com/minsuho/HyedamTown/repo/lib/net/fabricmc/intermediary/1.20.1/intermediary-1.20.1.jar"
+                "url": "https://raw.githubusercontent.com/minsuho/HyedamTown/main/repo/lib/net/fabricmc/intermediary/1.20.1/intermediary-1.20.1.jar"
               }
             }
           ]
@@ -125,7 +125,7 @@
           "type": "FabricMod",
           "artifact": {
             "size": 363781,
-            "url": "https://raw.githubusercontent.com/minsuho/HyedamTown/servers/hyedamtown-1.20.1/fabricmods/required/balm-fabric-1.20-7.0.7.jar",
+            "url": "https://raw.githubusercontent.com/minsuho/HyedamTown/main/servers/hyedamtown-1.20.1/fabricmods/required/balm-fabric-1.20-7.0.7.jar",
             "MD5": "1355b9d23d8cc12f5370001bd7019734"
           }
         },
@@ -135,7 +135,7 @@
           "type": "FabricMod",
           "artifact": {
             "size": 343899,
-            "url": "https://raw.githubusercontent.com/minsuho/HyedamTown/servers/hyedamtown-1.20.1/fabricmods/required/caramelChat-mc1.20.1-fabric-1.2.0.jar",
+            "url": "https://raw.githubusercontent.com/minsuho/HyedamTown/main/servers/hyedamtown-1.20.1/fabricmods/required/caramelChat-mc1.20.1-fabric-1.2.0.jar",
             "MD5": "69ec9d55a7a980bc1159cc33e246d581"
           }
         },
@@ -145,7 +145,7 @@
           "type": "FabricMod",
           "artifact": {
             "size": 1172214,
-            "url": "https://raw.githubusercontent.com/minsuho/HyedamTown/servers/hyedamtown-1.20.1/fabricmods/required/cloth-config-11.1.136-fabric.jar",
+            "url": "https://raw.githubusercontent.com/minsuho/HyedamTown/main/servers/hyedamtown-1.20.1/fabricmods/required/cloth-config-11.1.136-fabric.jar",
             "MD5": "45d8bada7797af61d1f5543313b1f9f0"
           }
         },
@@ -155,7 +155,7 @@
           "type": "FabricMod",
           "artifact": {
             "size": 1016063,
-            "url": "https://raw.githubusercontent.com/minsuho/HyedamTown/servers/hyedamtown-1.20.1/fabricmods/required/continuity-3.0.0+1.20.1.jar",
+            "url": "https://raw.githubusercontent.com/minsuho/HyedamTown/main/servers/hyedamtown-1.20.1/fabricmods/required/continuity-3.0.0+1.20.1.jar",
             "MD5": "d180631d4db7588393f1d0c280593bc3"
           }
         },
@@ -165,7 +165,7 @@
           "type": "FabricMod",
           "artifact": {
             "size": 87707,
-            "url": "https://raw.githubusercontent.com/minsuho/HyedamTown/servers/hyedamtown-1.20.1/fabricmods/required/defaultoptions-fabric-1.20-18.0.1.jar",
+            "url": "https://raw.githubusercontent.com/minsuho/HyedamTown/main/servers/hyedamtown-1.20.1/fabricmods/required/defaultoptions-fabric-1.20-18.0.1.jar",
             "MD5": "26c54b2cf1ea94737d9e1878859d9697"
           }
         },
@@ -175,7 +175,7 @@
           "type": "FabricMod",
           "artifact": {
             "size": 68941,
-            "url": "https://raw.githubusercontent.com/minsuho/HyedamTown/servers/hyedamtown-1.20.1/fabricmods/required/entityculling-fabric-1.7.2-mc1.20.1.jar",
+            "url": "https://raw.githubusercontent.com/minsuho/HyedamTown/main/servers/hyedamtown-1.20.1/fabricmods/required/entityculling-fabric-1.7.2-mc1.20.1.jar",
             "MD5": "734c6af56419b17af48afe926acbfd8f"
           }
         },
@@ -185,7 +185,7 @@
           "type": "FabricMod",
           "artifact": {
             "size": 2107985,
-            "url": "https://raw.githubusercontent.com/minsuho/HyedamTown/servers/hyedamtown-1.20.1/fabricmods/required/fabric-api-0.92.3+1.20.1.jar",
+            "url": "https://raw.githubusercontent.com/minsuho/HyedamTown/main/servers/hyedamtown-1.20.1/fabricmods/required/fabric-api-0.92.3+1.20.1.jar",
             "MD5": "dc37eff29b709467379bc41ae4f721b4"
           }
         },
@@ -195,7 +195,7 @@
           "type": "FabricMod",
           "artifact": {
             "size": 7089756,
-            "url": "https://raw.githubusercontent.com/minsuho/HyedamTown/servers/hyedamtown-1.20.1/fabricmods/required/fabric-language-kotlin-1.13.0+kotlin.2.1.0.jar",
+            "url": "https://raw.githubusercontent.com/minsuho/HyedamTown/main/servers/hyedamtown-1.20.1/fabricmods/required/fabric-language-kotlin-1.13.0+kotlin.2.1.0.jar",
             "MD5": "f6623d8c006095c4e08323f084e6c00e"
           }
         },
@@ -205,7 +205,7 @@
           "type": "FabricMod",
           "artifact": {
             "size": 105359,
-            "url": "https://raw.githubusercontent.com/minsuho/HyedamTown/servers/hyedamtown-1.20.1/fabricmods/required/indium-1.0.34+mc1.20.1.jar",
+            "url": "https://raw.githubusercontent.com/minsuho/HyedamTown/main/servers/hyedamtown-1.20.1/fabricmods/required/indium-1.0.34+mc1.20.1.jar",
             "MD5": "91f3ce08edec42ee8f6b45fd6ae0c8b3"
           }
         },
@@ -215,7 +215,7 @@
           "type": "FabricMod",
           "artifact": {
             "size": 2730664,
-            "url": "https://raw.githubusercontent.com/minsuho/HyedamTown/servers/hyedamtown-1.20.1/fabricmods/required/iris-1.7.5+mc1.20.1.jar",
+            "url": "https://raw.githubusercontent.com/minsuho/HyedamTown/main/servers/hyedamtown-1.20.1/fabricmods/required/iris-1.7.5+mc1.20.1.jar",
             "MD5": "902528a82a843300ecf9027af9f8fb8c"
           }
         },
@@ -225,7 +225,7 @@
           "type": "FabricMod",
           "artifact": {
             "size": 7209180,
-            "url": "https://raw.githubusercontent.com/minsuho/HyedamTown/servers/hyedamtown-1.20.1/fabricmods/required/journeymap-1.20.1-5.10.3-fabric.jar",
+            "url": "https://raw.githubusercontent.com/minsuho/HyedamTown/main/servers/hyedamtown-1.20.1/fabricmods/required/journeymap-1.20.1-5.10.3-fabric.jar",
             "MD5": "4689aa2b7ae8126112e32a2069dc1040"
           }
         },
@@ -235,7 +235,7 @@
           "type": "FabricMod",
           "artifact": {
             "size": 49334,
-            "url": "https://raw.githubusercontent.com/minsuho/HyedamTown/servers/hyedamtown-1.20.1/fabricmods/required/memoryleakfix-fabric-1.17+-1.1.5.jar",
+            "url": "https://raw.githubusercontent.com/minsuho/HyedamTown/main/servers/hyedamtown-1.20.1/fabricmods/required/memoryleakfix-fabric-1.17+-1.1.5.jar",
             "MD5": "a8461f89d267441752c95beb5448e940"
           }
         },
@@ -245,7 +245,7 @@
           "type": "FabricMod",
           "artifact": {
             "size": 654305,
-            "url": "https://raw.githubusercontent.com/minsuho/HyedamTown/servers/hyedamtown-1.20.1/fabricmods/required/modernfix-fabric-5.20.0+mc1.20.1.jar",
+            "url": "https://raw.githubusercontent.com/minsuho/HyedamTown/main/servers/hyedamtown-1.20.1/fabricmods/required/modernfix-fabric-5.20.0+mc1.20.1.jar",
             "MD5": "89d34c863adc021998cdea57e966142c"
           }
         },
@@ -255,7 +255,7 @@
           "type": "FabricMod",
           "artifact": {
             "size": 721366,
-            "url": "https://raw.githubusercontent.com/minsuho/HyedamTown/servers/hyedamtown-1.20.1/fabricmods/required/modmenu-7.2.2.jar",
+            "url": "https://raw.githubusercontent.com/minsuho/HyedamTown/main/servers/hyedamtown-1.20.1/fabricmods/required/modmenu-7.2.2.jar",
             "MD5": "2629511a2d3b141d9f2a24dc9685637e"
           }
         },
@@ -265,7 +265,7 @@
           "type": "FabricMod",
           "artifact": {
             "size": 968419,
-            "url": "https://raw.githubusercontent.com/minsuho/HyedamTown/servers/hyedamtown-1.20.1/fabricmods/required/sodium-fabric-0.5.11+mc1.20.1.jar",
+            "url": "https://raw.githubusercontent.com/minsuho/HyedamTown/main/servers/hyedamtown-1.20.1/fabricmods/required/sodium-fabric-0.5.11+mc1.20.1.jar",
             "MD5": "9880bae748957d1cb6c4de50c8e0452a"
           }
         },
@@ -275,7 +275,7 @@
           "type": "FabricMod",
           "artifact": {
             "size": 8092038,
-            "url": "https://raw.githubusercontent.com/minsuho/HyedamTown/servers/hyedamtown-1.20.1/fabricmods/required/voicechat-fabric-1.20.1-2.5.27.jar",
+            "url": "https://raw.githubusercontent.com/minsuho/HyedamTown/main/servers/hyedamtown-1.20.1/fabricmods/required/voicechat-fabric-1.20.1-2.5.27.jar",
             "MD5": "7377aba366b2e256c687c7cb556d4a2b"
           }
         },
@@ -285,7 +285,7 @@
           "type": "FabricMod",
           "artifact": {
             "size": 1106630,
-            "url": "https://raw.githubusercontent.com/minsuho/HyedamTown/servers/hyedamtown-1.20.1/fabricmods/required/YetAnotherConfigLib-3.6.2+1.20.1-fabric.jar",
+            "url": "https://raw.githubusercontent.com/minsuho/HyedamTown/main/servers/hyedamtown-1.20.1/fabricmods/required/YetAnotherConfigLib-3.6.2+1.20.1-fabric.jar",
             "MD5": "976f29a1a0754edf18c349cf644f9f78"
           }
         },
@@ -295,7 +295,7 @@
           "type": "FabricMod",
           "artifact": {
             "size": 807877,
-            "url": "https://raw.githubusercontent.com/minsuho/HyedamTown/servers/hyedamtown-1.20.1/fabricmods/required/Zoomify-2.14.2+1.20.1.jar",
+            "url": "https://raw.githubusercontent.com/minsuho/HyedamTown/main/servers/hyedamtown-1.20.1/fabricmods/required/Zoomify-2.14.2+1.20.1.jar",
             "MD5": "57d42c12e06bf4c8bbdd3f2d14a786ba"
           }
         },
@@ -305,7 +305,7 @@
           "type": "File",
           "artifact": {
             "size": 34,
-            "url": "https://raw.githubusercontent.com/minsuho/HyedamTown/servers/hyedamtown-1.20.1/files/data/fabricDefaultResourcePacks.dat",
+            "url": "https://raw.githubusercontent.com/minsuho/HyedamTown/main/servers/hyedamtown-1.20.1/files/data/fabricDefaultResourcePacks.dat",
             "MD5": "4a18ab67b7cef1f7f7d5e9440dafde5a",
             "path": "data/fabricDefaultResourcePacks.dat"
           }
@@ -316,7 +316,7 @@
           "type": "File",
           "artifact": {
             "size": 218542,
-            "url": "https://raw.githubusercontent.com/minsuho/HyedamTown/servers/hyedamtown-1.20.1/files/resourcepacks/SodiumTranslations.zip",
+            "url": "https://raw.githubusercontent.com/minsuho/HyedamTown/main/servers/hyedamtown-1.20.1/files/resourcepacks/SodiumTranslations.zip",
             "MD5": "110da2db82880457d4f64daa400b6511",
             "path": "resourcepacks/SodiumTranslations.zip"
           }
@@ -327,7 +327,7 @@
           "type": "File",
           "artifact": {
             "size": 446656,
-            "url": "https://raw.githubusercontent.com/minsuho/HyedamTown/servers/hyedamtown-1.20.1/files/shaderpacks/ComplementaryReimagined_r5.3.zip",
+            "url": "https://raw.githubusercontent.com/minsuho/HyedamTown/main/servers/hyedamtown-1.20.1/files/shaderpacks/ComplementaryReimagined_r5.3.zip",
             "MD5": "16aed916088bde7a7e4a252e3d7ebcda",
             "path": "shaderpacks/ComplementaryReimagined_r5.3.zip"
           }
