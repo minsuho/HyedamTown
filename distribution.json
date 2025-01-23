@@ -200,6 +200,16 @@
           }
         },
         {
+          "id": "com.gitter:hyedamtown:1.0-SNAPSHOT@jar",
+          "name": "HyedamTown",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 6722,
+            "url": "https://raw.githubusercontent.com/minsuho/HyedamTown/main/servers/hyedamtown-1.20.1/fabricmods/required/hyedamtown-1.0-SNAPSHOT.jar",
+            "MD5": "597783e31761ebcc682cf1a80a3ec59c"
+          }
+        },
+        {
           "id": "link.infra:indium:1.0.34+mc1.20.1@jar",
           "name": "Indium",
           "type": "FabricMod",
