@@ -14,7 +14,11 @@
       "icon": null,
       "version": "1.0.0",
       "address": "혜담.서버.한국:25565",
+<<<<<<< HEAD
       "minecraftVersion": "1.20.4",
+=======
+      "minecraftVersion": "1.20.1",
+>>>>>>> 7540265efebc7be4e2ee56a4bca5b6ca2f261b22
       "discord": {
         "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
         "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
@@ -404,7 +408,11 @@
           "artifact": {
             "size": 290,
             "url": "https://raw.githubusercontent.com/minsuho/HyedamTown/main/servers/hyedamtown-1.20.4/files/config/fabric/indigo-renderer.properties",
+<<<<<<< HEAD
             "MD5": "59aa16b2f12ea23702fd0a7a5210463f",
+=======
+            "MD5": "b55815fb360f0a8aebb81248e80d0f31",
+>>>>>>> 7540265efebc7be4e2ee56a4bca5b6ca2f261b22
             "path": "config/fabric/indigo-renderer.properties"
           }
         },
@@ -415,7 +423,11 @@
           "artifact": {
             "size": 115,
             "url": "https://raw.githubusercontent.com/minsuho/HyedamTown/main/servers/hyedamtown-1.20.4/files/config/indium-renderer.properties",
+<<<<<<< HEAD
             "MD5": "f8e293fb1e392bd1d89f041545e59d54",
+=======
+            "MD5": "52470c93ff45ff4598c77d7a728f7490",
+>>>>>>> 7540265efebc7be4e2ee56a4bca5b6ca2f261b22
             "path": "config/indium-renderer.properties"
           }
         },
@@ -426,7 +438,11 @@
           "artifact": {
             "size": 253,
             "url": "https://raw.githubusercontent.com/minsuho/HyedamTown/main/servers/hyedamtown-1.20.4/files/config/iris.properties",
+<<<<<<< HEAD
             "MD5": "8e66ba7a79f87f25d363e953ad605424",
+=======
+            "MD5": "b7ec8e05f025367d2b12f596ed1e82f3",
+>>>>>>> 7540265efebc7be4e2ee56a4bca5b6ca2f261b22
             "path": "config/iris.properties"
           }
         },
