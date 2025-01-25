@@ -1,0 +1,535 @@
+{
+  "version": "1.0.0",
+  "rss": "<LINK TO RSS FEED>",
+  "discord": {
+    "clientId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+    "smallImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+    "smallImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+  },
+  "servers": [
+    {
+      "id": "hyedamtown-1.20.4",
+      "name": "hyedamtown (Minecraft 1.20.4)",
+      "description": "hyedamtown Running Minecraft 1.20.4 (Fabric v0.16.10)",
+      "icon": null,
+      "version": "1.0.0",
+      "address": "혜담.서버.한국:25565",
+      "minecraftVersion": "1.20.4",
+      "discord": {
+        "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+      },
+      "mainServer": true,
+      "autoconnect": true,
+      "server": {
+        "ip": "혜담.서버.한국",
+        "port": 25565
+      },
+      "modules": [
+        {
+          "id": "net.fabricmc:fabric-loader:0.16.10",
+          "name": "Fabric (fabric-loader)",
+          "type": "Fabric",
+          "artifact": {
+            "size": 1387408,
+            "MD5": "239d59118dec4324672b3d9e9d75efef",
+            "url": "https://raw.githubusercontent.com/minsuho/HyedamTown/main/repo/lib/net/fabricmc/fabric-loader/0.16.10/fabric-loader-0.16.10.jar"
+          },
+          "subModules": [
+            {
+              "id": "1.20.4-fabric-0.16.10",
+              "name": "Fabric (version.json)",
+              "type": "VersionManifest",
+              "artifact": {
+                "size": 2859,
+                "MD5": "2410b0c4ba2613b5b9ce8594bd96cb42",
+                "url": "https://raw.githubusercontent.com/minsuho/HyedamTown/main/repo/versions/1.20.4-fabric-0.16.10/1.20.4-fabric-0.16.10.json"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm:9.7.1",
+              "name": "Fabric (asm)",
+              "type": "Library",
+              "artifact": {
+                "size": 126093,
+                "MD5": "e2cdd32d198ad31427d298eee9d39d8d",
+                "url": "https://raw.githubusercontent.com/minsuho/HyedamTown/main/repo/lib/org/ow2/asm/asm/9.7.1/asm-9.7.1.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-analysis:9.7.1",
+              "name": "Fabric (asm-analysis)",
+              "type": "Library",
+              "artifact": {
+                "size": 35126,
+                "MD5": "4cd9e7178dfb85371bba3077e40cd514",
+                "url": "https://raw.githubusercontent.com/minsuho/HyedamTown/main/repo/lib/org/ow2/asm/asm-analysis/9.7.1/asm-analysis-9.7.1.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-commons:9.7.1",
+              "name": "Fabric (asm-commons)",
+              "type": "Library",
+              "artifact": {
+                "size": 73459,
+                "MD5": "8344aea3c8b7d707e9d35a62710e77c9",
+                "url": "https://raw.githubusercontent.com/minsuho/HyedamTown/main/repo/lib/org/ow2/asm/asm-commons/9.7.1/asm-commons-9.7.1.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-tree:9.7.1",
+              "name": "Fabric (asm-tree)",
+              "type": "Library",
+              "artifact": {
+                "size": 51939,
+                "MD5": "e85029f613b6469989cc7cf53fe06b74",
+                "url": "https://raw.githubusercontent.com/minsuho/HyedamTown/main/repo/lib/org/ow2/asm/asm-tree/9.7.1/asm-tree-9.7.1.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-util:9.7.1",
+              "name": "Fabric (asm-util)",
+              "type": "Library",
+              "artifact": {
+                "size": 94519,
+                "MD5": "36d373a9cd6cad9b35db9f984c6b4bbb",
+                "url": "https://raw.githubusercontent.com/minsuho/HyedamTown/main/repo/lib/org/ow2/asm/asm-util/9.7.1/asm-util-9.7.1.jar"
+              }
+            },
+            {
+              "id": "net.fabricmc:sponge-mixin:0.15.4+mixin.0.8.7",
+              "name": "Fabric (sponge-mixin)",
+              "type": "Library",
+              "artifact": {
+                "size": 1494834,
+                "MD5": "991ca8be2c408fe19eb64014d8a18243",
+                "url": "https://raw.githubusercontent.com/minsuho/HyedamTown/main/repo/lib/net/fabricmc/sponge-mixin/0.15.4+mixin.0.8.7/sponge-mixin-0.15.4+mixin.0.8.7.jar"
+              }
+            },
+            {
+              "id": "net.fabricmc:intermediary:1.20.4",
+              "name": "Fabric (intermediary)",
+              "type": "Library",
+              "artifact": {
+                "size": 608319,
+                "MD5": "3a1cade1634c518db6147c9771686ea9",
+                "url": "https://raw.githubusercontent.com/minsuho/HyedamTown/main/repo/lib/net/fabricmc/intermediary/1.20.4/intermediary-1.20.4.jar"
+              }
+            }
+          ]
+        },
+        {
+          "id": "net.blay09.mods.balm:balm-fabric:9.0.9@jar",
+          "name": "Balm",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 397505,
+            "url": "https://raw.githubusercontent.com/minsuho/HyedamTown/main/servers/hyedamtown-1.20.4/fabricmods/required/balm-fabric-1.20.4-9.0.9.jar",
+            "MD5": "413020c9b04ff02b0c9795d9529bfb97"
+          }
+        },
+        {
+          "id": "moe.caramel.chat:caramelchat:1.2.0@jar",
+          "name": "CaramelChat",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 163227,
+            "url": "https://raw.githubusercontent.com/minsuho/HyedamTown/main/servers/hyedamtown-1.20.4/fabricmods/required/caramelChat-mc1.20.4-fabric-1.2.0.jar",
+            "MD5": "59afda01c0be221d5e692e97dd2b77bf"
+          }
+        },
+        {
+          "id": "me.shedaniel.autoconfig.example:cloth-config:13.0.138@jar",
+          "name": "Cloth Config v13",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1154870,
+            "url": "https://raw.githubusercontent.com/minsuho/HyedamTown/main/servers/hyedamtown-1.20.4/fabricmods/required/cloth-config-13.0.138-fabric.jar",
+            "MD5": "fe340d88340db91313eb5d50febcbb81"
+          }
+        },
+        {
+          "id": "me.pepperbell:continuity:3.0.0+1.20.2@jar",
+          "name": "Continuity",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1016209,
+            "url": "https://raw.githubusercontent.com/minsuho/HyedamTown/main/servers/hyedamtown-1.20.4/fabricmods/required/continuity-3.0.0+1.20.2.jar",
+            "MD5": "66c63db86b7fbc4fbb5a3816c124b03b"
+          }
+        },
+        {
+          "id": "net.blay09.mods:defaultoptions:20.0.2@jar",
+          "name": "Default Options",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 87343,
+            "url": "https://raw.githubusercontent.com/minsuho/HyedamTown/main/servers/hyedamtown-1.20.4/fabricmods/required/defaultoptions-fabric-1.20.4-20.0.2.jar",
+            "MD5": "8a646165dfef1aaaaff41df4e486f8e6"
+          }
+        },
+        {
+          "id": "dev.tr7zw:entityculling:1.7.2@jar",
+          "name": "EntityCulling",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 68822,
+            "url": "https://raw.githubusercontent.com/minsuho/HyedamTown/main/servers/hyedamtown-1.20.4/fabricmods/required/entityculling-fabric-1.7.2-mc1.20.4.jar",
+            "MD5": "06f858743f09318cf9cc4c52df19848c"
+          }
+        },
+        {
+          "id": "generated.fabricmod:fabric-api:0.97.2+1.20.4@jar",
+          "name": "Fabric API",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 2187410,
+            "url": "https://raw.githubusercontent.com/minsuho/HyedamTown/main/servers/hyedamtown-1.20.4/fabricmods/required/fabric-api-0.97.2+1.20.4.jar",
+            "MD5": "2733c159c2f7628983a96b442ca3f823"
+          }
+        },
+        {
+          "id": "generated.fabricmod:fabric-language-kotlin:1.13.0+kotlin.2.1.0@jar",
+          "name": "Fabric Language Kotlin",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 7089756,
+            "url": "https://raw.githubusercontent.com/minsuho/HyedamTown/main/servers/hyedamtown-1.20.4/fabricmods/required/fabric-language-kotlin-1.13.0+kotlin.2.1.0.jar",
+            "MD5": "f6623d8c006095c4e08323f084e6c00e"
+          }
+        },
+        {
+          "id": "com.gitter:hyedamtown:1.0-SNAPSHOT@jar",
+          "name": "HyedamTown",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 42888,
+            "url": "https://raw.githubusercontent.com/minsuho/HyedamTown/main/servers/hyedamtown-1.20.4/fabricmods/required/hyedamtown-1.0-SNAPSHOT.jar",
+            "MD5": "cd3113c48be695385fb59685d259de13"
+          }
+        },
+        {
+          "id": "link.infra:indium:1.0.31+mc1.20.4@jar",
+          "name": "Indium",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 105350,
+            "url": "https://raw.githubusercontent.com/minsuho/HyedamTown/main/servers/hyedamtown-1.20.4/fabricmods/required/indium-1.0.31+mc1.20.4.jar",
+            "MD5": "86d20afc613763546f51452ef893be82"
+          }
+        },
+        {
+          "id": "generated.fabricmod:iris:1.7.2+mc1.20.4@jar",
+          "name": "Iris",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 2703697,
+            "url": "https://raw.githubusercontent.com/minsuho/HyedamTown/main/servers/hyedamtown-1.20.4/fabricmods/required/iris-1.7.2+mc1.20.4.jar",
+            "MD5": "fa3647d1891a719b268c636236d989c2"
+          }
+        },
+        {
+          "id": "journeymap:journeymap:5.10.0@jar",
+          "name": "Journeymap",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 7209750,
+            "url": "https://raw.githubusercontent.com/minsuho/HyedamTown/main/servers/hyedamtown-1.20.4/fabricmods/required/journeymap-1.20.4-5.10.0-fabric.jar",
+            "MD5": "51fd7c0a120638305365e6431bcbf602"
+          }
+        },
+        {
+          "id": "ca.fxco:memoryleakfix:1.1.5@jar",
+          "name": "Memory Leak Fix",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 49334,
+            "url": "https://raw.githubusercontent.com/minsuho/HyedamTown/main/servers/hyedamtown-1.20.4/fabricmods/required/memoryleakfix-fabric-1.17+-1.1.5.jar",
+            "MD5": "a8461f89d267441752c95beb5448e940"
+          }
+        },
+        {
+          "id": "org.embeddedt:modernfix:5.17.0+mc1.20.4@jar",
+          "name": "ModernFix",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 458056,
+            "url": "https://raw.githubusercontent.com/minsuho/HyedamTown/main/servers/hyedamtown-1.20.4/fabricmods/required/modernfix-fabric-5.17.0+mc1.20.4.jar",
+            "MD5": "c988c6a3371040def77a32f3741c9723"
+          }
+        },
+        {
+          "id": "com.terraformersmc:modmenu:9.2.0@jar",
+          "name": "Mod Menu",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 963019,
+            "url": "https://raw.githubusercontent.com/minsuho/HyedamTown/main/servers/hyedamtown-1.20.4/fabricmods/required/modmenu-9.2.0.jar",
+            "MD5": "f8008ee81dd401a441bd20f41e43fca2"
+          }
+        },
+        {
+          "id": "me.jellysquid.mods:sodium:0.5.8+mc1.20.4@jar",
+          "name": "Sodium",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 949085,
+            "url": "https://raw.githubusercontent.com/minsuho/HyedamTown/main/servers/hyedamtown-1.20.4/fabricmods/required/sodium-fabric-0.5.8+mc1.20.4.jar",
+            "MD5": "d7753a50ca37f50abb10465a9a425dac"
+          }
+        },
+        {
+          "id": "de.maxhenkel:voicechat:1.20.4-2.5.22@jar",
+          "name": "Simple Voice Chat",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 8147474,
+            "url": "https://raw.githubusercontent.com/minsuho/HyedamTown/main/servers/hyedamtown-1.20.4/fabricmods/required/voicechat-fabric-1.20.4-2.5.22.jar",
+            "MD5": "5217d3b088200ebac7fbb7f3e41087ef"
+          }
+        },
+        {
+          "id": "dev.isxander.yacl3.platform:yet_another_config_lib_v3:3.6.2+1.20.4-fabric@jar",
+          "name": "YetAnotherConfigLib",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1107941,
+            "url": "https://raw.githubusercontent.com/minsuho/HyedamTown/main/servers/hyedamtown-1.20.4/fabricmods/required/YetAnotherConfigLib-3.6.2+1.20.4-fabric.jar",
+            "MD5": "312e74529b1f6bfc79c5334375bf9bb7"
+          }
+        },
+        {
+          "id": "dev.isxander:zoomify:2.14.2+1.20.4@jar",
+          "name": "Zoomify",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 807874,
+            "url": "https://raw.githubusercontent.com/minsuho/HyedamTown/main/servers/hyedamtown-1.20.4/fabricmods/required/Zoomify-2.14.2+1.20.4.jar",
+            "MD5": "cf99ab393d527fda2e146206ac447a5d"
+          }
+        },
+        {
+          "id": "balm-common.out.toml",
+          "name": "balm-common.out.toml",
+          "type": "File",
+          "artifact": {
+            "size": 333,
+            "url": "https://raw.githubusercontent.com/minsuho/HyedamTown/main/servers/hyedamtown-1.20.4/files/config/balm-common.out.toml",
+            "MD5": "3dd3397e976f9184eb32abde533cf247",
+            "path": "config/balm-common.out.toml"
+          }
+        },
+        {
+          "id": "balm-common.toml",
+          "name": "balm-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 493,
+            "url": "https://raw.githubusercontent.com/minsuho/HyedamTown/main/servers/hyedamtown-1.20.4/files/config/balm-common.toml",
+            "MD5": "be5c006037f2a2a399b7b0c16fe6fe94",
+            "path": "config/balm-common.toml"
+          }
+        },
+        {
+          "id": "balm-common.toml.bak1",
+          "name": "balm-common.toml.bak1",
+          "type": "File",
+          "artifact": {
+            "size": 422,
+            "url": "https://raw.githubusercontent.com/minsuho/HyedamTown/main/servers/hyedamtown-1.20.4/files/config/balm-common.toml.bak1",
+            "MD5": "dde155c16a0952f1a48595fd35796120",
+            "path": "config/balm-common.toml.bak1"
+          }
+        },
+        {
+          "id": "continuity.json",
+          "name": "continuity.json",
+          "type": "File",
+          "artifact": {
+            "size": 122,
+            "url": "https://raw.githubusercontent.com/minsuho/HyedamTown/main/servers/hyedamtown-1.20.4/files/config/continuity.json",
+            "MD5": "16114edbb9460c49373bb12561ddf7c3",
+            "path": "config/continuity.json"
+          }
+        },
+        {
+          "id": "keybindings.txt",
+          "name": "keybindings.txt",
+          "type": "File",
+          "artifact": {
+            "size": 3291,
+            "url": "https://raw.githubusercontent.com/minsuho/HyedamTown/main/servers/hyedamtown-1.20.4/files/config/defaultoptions/keybindings.txt",
+            "MD5": "8ebbbd5e78e7425e22fe74db8bfc2ffd",
+            "path": "config/defaultoptions/keybindings.txt"
+          }
+        },
+        {
+          "id": "options.txt",
+          "name": "options.txt",
+          "type": "File",
+          "artifact": {
+            "size": 2352,
+            "url": "https://raw.githubusercontent.com/minsuho/HyedamTown/main/servers/hyedamtown-1.20.4/files/config/defaultoptions/options.txt",
+            "MD5": "f84bb951ceb1dc2c6f6e7c906d102069",
+            "path": "config/defaultoptions/options.txt"
+          }
+        },
+        {
+          "id": "servers.dat",
+          "name": "servers.dat",
+          "type": "File",
+          "artifact": {
+            "size": 4627,
+            "url": "https://raw.githubusercontent.com/minsuho/HyedamTown/main/servers/hyedamtown-1.20.4/files/config/defaultoptions/servers.dat",
+            "MD5": "deddd40dc7727cf9ecc3e378866de8bd",
+            "path": "config/defaultoptions/servers.dat"
+          }
+        },
+        {
+          "id": "entityculling.json",
+          "name": "entityculling.json",
+          "type": "File",
+          "artifact": {
+            "size": 1051,
+            "url": "https://raw.githubusercontent.com/minsuho/HyedamTown/main/servers/hyedamtown-1.20.4/files/config/entityculling.json",
+            "MD5": "5503396618de7bf1d1e8c6634198acdd",
+            "path": "config/entityculling.json"
+          }
+        },
+        {
+          "id": "indigo-renderer.properties",
+          "name": "indigo-renderer.properties",
+          "type": "File",
+          "artifact": {
+            "size": 290,
+            "url": "https://raw.githubusercontent.com/minsuho/HyedamTown/main/servers/hyedamtown-1.20.4/files/config/fabric/indigo-renderer.properties",
+            "MD5": "59aa16b2f12ea23702fd0a7a5210463f",
+            "path": "config/fabric/indigo-renderer.properties"
+          }
+        },
+        {
+          "id": "indium-renderer.properties",
+          "name": "indium-renderer.properties",
+          "type": "File",
+          "artifact": {
+            "size": 115,
+            "url": "https://raw.githubusercontent.com/minsuho/HyedamTown/main/servers/hyedamtown-1.20.4/files/config/indium-renderer.properties",
+            "MD5": "f8e293fb1e392bd1d89f041545e59d54",
+            "path": "config/indium-renderer.properties"
+          }
+        },
+        {
+          "id": "iris.properties",
+          "name": "iris.properties",
+          "type": "File",
+          "artifact": {
+            "size": 253,
+            "url": "https://raw.githubusercontent.com/minsuho/HyedamTown/main/servers/hyedamtown-1.20.4/files/config/iris.properties",
+            "MD5": "8e66ba7a79f87f25d363e953ad605424",
+            "path": "config/iris.properties"
+          }
+        },
+        {
+          "id": "modernfix-mixins.properties",
+          "name": "modernfix-mixins.properties",
+          "type": "File",
+          "artifact": {
+            "size": 3422,
+            "url": "https://raw.githubusercontent.com/minsuho/HyedamTown/main/servers/hyedamtown-1.20.4/files/config/modernfix-mixins.properties",
+            "MD5": "302a528d1b3446880da7b62d8b974571",
+            "path": "config/modernfix-mixins.properties"
+          }
+        },
+        {
+          "id": "modmenu.json",
+          "name": "modmenu.json",
+          "type": "File",
+          "artifact": {
+            "size": 814,
+            "url": "https://raw.githubusercontent.com/minsuho/HyedamTown/main/servers/hyedamtown-1.20.4/files/config/modmenu.json",
+            "MD5": "e8f3869015601ad3afae3fa4412c307c",
+            "path": "config/modmenu.json"
+          }
+        },
+        {
+          "id": "sodium-fingerprint.json",
+          "name": "sodium-fingerprint.json",
+          "type": "File",
+          "artifact": {
+            "size": 427,
+            "url": "https://raw.githubusercontent.com/minsuho/HyedamTown/main/servers/hyedamtown-1.20.4/files/config/sodium-fingerprint.json",
+            "MD5": "875bc4fa006ba16c58766e0d651265e0",
+            "path": "config/sodium-fingerprint.json"
+          }
+        },
+        {
+          "id": "sodium-mixins.properties",
+          "name": "sodium-mixins.properties",
+          "type": "File",
+          "artifact": {
+            "size": 265,
+            "url": "https://raw.githubusercontent.com/minsuho/HyedamTown/main/servers/hyedamtown-1.20.4/files/config/sodium-mixins.properties",
+            "MD5": "456d99888369486f42d6ea7f70294170",
+            "path": "config/sodium-mixins.properties"
+          }
+        },
+        {
+          "id": "sodium-options.json",
+          "name": "sodium-options.json",
+          "type": "File",
+          "artifact": {
+            "size": 631,
+            "url": "https://raw.githubusercontent.com/minsuho/HyedamTown/main/servers/hyedamtown-1.20.4/files/config/sodium-options.json",
+            "MD5": "a1825f69c29b5db6b13d4e1c9eba4161",
+            "path": "config/sodium-options.json"
+          }
+        },
+        {
+          "id": "yacl.json5",
+          "name": "yacl.json5",
+          "type": "File",
+          "artifact": {
+            "size": 35,
+            "url": "https://raw.githubusercontent.com/minsuho/HyedamTown/main/servers/hyedamtown-1.20.4/files/config/yacl.json5",
+            "MD5": "81d542abb72c4750c7218e0d975e3368",
+            "path": "config/yacl.json5"
+          }
+        },
+        {
+          "id": "zoomify.json",
+          "name": "zoomify.json",
+          "type": "File",
+          "artifact": {
+            "size": 713,
+            "url": "https://raw.githubusercontent.com/minsuho/HyedamTown/main/servers/hyedamtown-1.20.4/files/config/zoomify.json",
+            "MD5": "9724d512b38a85f4e133cf9e5dba357f",
+            "path": "config/zoomify.json"
+          }
+        },
+        {
+          "id": "SodiumTranslations.zip",
+          "name": "SodiumTranslations.zip",
+          "type": "File",
+          "artifact": {
+            "size": 218542,
+            "url": "https://raw.githubusercontent.com/minsuho/HyedamTown/main/servers/hyedamtown-1.20.4/files/resourcepacks/SodiumTranslations.zip",
+            "MD5": "110da2db82880457d4f64daa400b6511",
+            "path": "resourcepacks/SodiumTranslations.zip"
+          }
+        },
+        {
+          "id": "ComplementaryReimagined_r5.3.zip",
+          "name": "ComplementaryReimagined_r5.3.zip",
+          "type": "File",
+          "artifact": {
+            "size": 446656,
+            "url": "https://raw.githubusercontent.com/minsuho/HyedamTown/main/servers/hyedamtown-1.20.4/files/shaderpacks/ComplementaryReimagined_r5.3.zip",
+            "MD5": "16aed916088bde7a7e4a252e3d7ebcda",
+            "path": "shaderpacks/ComplementaryReimagined_r5.3.zip"
+          }
+        }
+      ]
+    }
+  ]
+}
